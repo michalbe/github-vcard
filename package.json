@@ -1,0 +1,19 @@
+{
+  "name": "github-vcard",
+  "version": "0.0.1",
+  "author": "Michał Budzyński <michal@virtualdesign.pl>",
+  "repository": "git@github.com:michalbe/github-vcard.git",
+  "devDependencies": {
+    "assert": "^1.1.1",
+    "jshint": "^2.5.4",
+    "nock": "^0.45.0",
+    "precommit-hook": "^1.0.7"
+  },
+  "scripts": {
+    "test": "node tests/github-vcard-tests.js",
+    "lint": "node node_modules/jshint/bin/jshint ."
+  },
+  "dependencies": {
+    "jsdom": "^1.0.0-pre.1"
+  }
+}
