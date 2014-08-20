@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert');
-//var github-vcard = require('../');
+var githubVcard = require('../');
 
 // test 1
 assert(true);
