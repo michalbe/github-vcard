@@ -39,14 +39,14 @@ var gv = function(username, callback) {
         vcard.url = vcard.url.textContent;
       }
 
-      vcard.joinDate = doc.querySelector('[itemprop=".join-date"]') || '';
-      if (vcard.joindate) {
+      vcard.joinDate = doc.querySelector('.join-date') || '';
+      if (vcard.joinDate) {
         vcard.joinDate = vcard.joinDate.textContent;
       }
 
       callback(err, vcard);
     }
-  )
-}
+  );
+};
 
 module.exports = gv;
