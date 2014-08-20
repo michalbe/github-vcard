@@ -11,5 +11,8 @@
   "scripts": {
     "test": "node tests/github-vcard-tests.js",
     "lint": "node node_modules/jshint/bin/jshint ."
+  },
+  "dependencies": {
+    "jsdom": "^1.0.0-pre.1"
   }
 }
