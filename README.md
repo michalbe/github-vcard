@@ -14,15 +14,11 @@ gv('michalbe', function(err, result) {
   console.log(result);
   // result:
   // {
-  //   followers: '379',
-  //   starred: '25',
-  //   following: '30',
   //   email: '',
-  //   fullName: 'Michał Budzyński',
-  //   homeLocation: 'Warsaw, Poland',
-  //   worksFor: 'Mozilla',
+  //   name: 'Michał Budzyński',
+  //   location: 'Warsaw, Poland',
+  //   company: 'Mozilla',
   //   url: 'http://michalbe.blogspot.com',
-  //   joinDate: 'Jul 28, 2010' }'Warsaw, Poland'
   // }
 });
 ```
