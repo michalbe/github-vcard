@@ -1,6 +1,6 @@
 {
   "name": "github-vcard",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "author": "Michał Budzyński <michal@virtualdesign.pl>",
   "repository": "git@github.com:michalbe/github-vcard.git",
   "devDependencies": {
