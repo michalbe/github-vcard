@@ -12,7 +12,8 @@ var gv = function(username, callback) {
       location: actor.location,
       company: actor.company,
       url: actor.blog
-    }
+    };
+
     callback(err, vcard);
   });
 };

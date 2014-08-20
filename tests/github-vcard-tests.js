@@ -7,16 +7,16 @@ var githubVcard = require('../');
 
 // test 1
 var json = JSON.stringify([{
-  "actor_attributes":
+  'actor_attributes':
     {
-      "login":"michalbe",
-      "type":"User",
-      "gravatar_id":"c9c16dd1d16ffef177b5e5ce0e50000d",
-      "name":"Michał Budzyński",
-      "company":"Mozilla",
-      "blog":"http://michalbe.blogspot.com",
-      "location":"Warsaw, Poland",
-      "email":""
+      'login':'michalbe',
+      'type':'User',
+      'gravatar_id':'c9c16dd1d16ffef177b5e5ce0e50000d',
+      'name':'Michał Budzyński',
+      'company':'Mozilla',
+      'blog':'http://michalbe.blogspot.com',
+      'location':'Warsaw, Poland',
+      'email':''
     }
   }]);
 
